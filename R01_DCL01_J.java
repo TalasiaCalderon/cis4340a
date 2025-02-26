@@ -1,5 +1,5 @@
 public class R01_DCL01_J {
-    class Vector {
+    class MyVector {
         private int val = 1;
        
         public boolean isEmpty() {
@@ -15,7 +15,7 @@ public class R01_DCL01_J {
     // import java.util.Vector; omitted
     public class VectorUser {
         public static void main(String[] args) {
-          Vector v = new Vector();
+          MyVector v = new MyVector();
           if (v.isEmpty()) {
             System.out.println("Vector is empty");
           }
